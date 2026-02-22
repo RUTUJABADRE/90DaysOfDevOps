@@ -9,6 +9,7 @@ You will create a short note that explains:
 - What systemd does and why it matters
 ---
 ##Solution
+---
 
 1. What is Kernel?
 
@@ -36,7 +37,7 @@ DevOps relevance
 3. What is init/systemd?
 The first process started by the kernel(PI = 1)
 
-###What it does
+What it does?
 - Starts and manages system services
 - Handles boot sequence
 - Manages service dependencies
@@ -51,7 +52,10 @@ Init/systemd matters because it starts, manages, monitors, and recovers system s
 5. How process are managed?
 Processes are typically created via the fork() and exec() mechanism,The OS Scheduler manages their transitions between Ready, Running, and Waiting states to ensure CPU efficiency and multitasking.
 
+---
+
 6. List 5 commands that you would use?
+   
 Ls -l , cd, systemctl, grep,top
 
 
