@@ -10,7 +10,6 @@ You will create a short note that explains:
   
 ---
 ## Solution
----
 
 1. What is Kernel?
 
