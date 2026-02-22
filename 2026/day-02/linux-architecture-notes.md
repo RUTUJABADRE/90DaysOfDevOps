@@ -7,8 +7,9 @@ You will create a short note that explains:
 - The core components of Linux (kernel, user space, init/systemd)
 - How processes are created and managed
 - What systemd does and why it matters
+  
 ---
-##Solution
+## Solution
 ---
 
 1. What is Kernel?
@@ -49,14 +50,12 @@ Init/systemd matters because it starts, manages, monitors, and recovers system s
 
 ---
 
-5. How process are managed?
+4. How process are managed?
 Processes are typically created via the fork() and exec() mechanism,The OS Scheduler manages their transitions between Ready, Running, and Waiting states to ensure CPU efficiency and multitasking.
 
 ---
 
-6. List 5 commands that you would use?
-   
-Ls -l , cd, systemctl, grep,top
-
+5. List 5 commands that you would use?
+   Ls -l , cd, systemctl, grep,top
 
 
