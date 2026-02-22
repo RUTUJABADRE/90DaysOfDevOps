@@ -47,4 +47,11 @@ You will create a cheat sheet of commands focused on:
 
 ## Networking troubleshooting
 
-1. 
+1. ping — Check connectivity
+2. curl — Test HTTP/HTTPS endpoints
+3. wget — Download and test connectivity
+4. ip addr — Show IP address
+5. nslookup — Check DNS resolution
+6. dig — Advanced DNS check
+7. traceroute — Show network path
+8. ss - used to display detailed information about network sockets
