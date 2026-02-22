@@ -14,7 +14,8 @@ You will create a short note that explains:
 
 1. What is Kernel?
 
-A kernel is a computer program that functions as the beating heart of the OS, the system that allows users to interact with the computer’s hardware and software. 
+A kernel is a computer program that functions as the beating heart of the OS, the system that allows users to interact with the computer’s hardware and software.
+
 What it does
 Process management (CPU scheduling)
 - Memory management
@@ -26,6 +27,7 @@ Process management (CPU scheduling)
 ---
 
 2. What is user space?
+   
 User space is the memory area where application software, daemons, and some drivers execute, typically with one address space per process.
 
 DevOps relevance
@@ -36,9 +38,10 @@ DevOps relevance
 ---
 
 3. What is init/systemd?
+   
 The first process started by the kernel(PI = 1)
 
-What it does?
+What it does
 - Starts and manages system services
 - Handles boot sequence
 - Manages service dependencies
@@ -46,16 +49,19 @@ What it does?
 - Controls system state (shutdown, reboot)
 
 Why does it matter?
+
 Init/systemd matters because it starts, manages, monitors, and recovers system services after boot. Without it, Linux would not run applications reliably
 
 ---
 
 4. How process are managed?
+   
 Processes are typically created via the fork() and exec() mechanism,The OS Scheduler manages their transitions between Ready, Running, and Waiting states to ensure CPU efficiency and multitasking.
 
 ---
 
 5. List 5 commands that you would use?
+   
    Ls -l , cd, systemctl, grep,top
 
 
