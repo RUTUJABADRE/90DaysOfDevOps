@@ -3,7 +3,7 @@
 **Core Directories (Must Know):**
 - `/` (root) - The starting point of everything
   
-Purpose: I would use this when I want to navigate the entire file system.
+  Purpose: I would use this when I want to navigate the entire file system.
 
 - `/home` - User home directories
   
