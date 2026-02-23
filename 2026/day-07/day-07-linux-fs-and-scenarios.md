@@ -2,11 +2,11 @@
 
 **Core Directories (Must Know):**
 - `/` (root) - The starting point of everything
-- 
+  
 Purpose: I would use this when I want to navigate the entire file system.
 
 - `/home` - User home directories
-- 
+  
   Purpose: I will use this to store personal files and data
   
   Default location:
@@ -28,7 +28,7 @@ Purpose: I would use this when I want to navigate the entire file system.
   ```
   
 - `/etc` - Configuration files
-- 
+ 
 Purpose : /etc directory contains system-wide configuration files. It is used to configure services like SSH, network settings, user accounts, and system applications
 
 1. If SSH is not working, you check:
