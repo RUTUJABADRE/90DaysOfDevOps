@@ -1,6 +1,9 @@
 # Day 07 – Linux File System Hierarchy & Scenario-Based Practice
 
 **Core Directories (Must Know):**
+
+---
+
 - `/` (root) - The starting point of everything
   
   Purpose: I would use this when I want to navigate the entire file system.
@@ -64,3 +67,134 @@ Purpose : /etc directory contains system-wide configuration files. It is used to
   ```bash
   ls /tmp
   ```
+---
+
+**Scenario 1: Service Not Starting** 
+```
+A web application service called 'myapp' failed to start after a server reboot.
+What commands would you run to diagnose the issue?
+Write at least 4 commands in order.
+```
+
+## Answer
+
+```bash
+# Scenario 1: Service Not Starting
+
+Step 1:
+Command:
+systemctl status myapp
+
+Why:
+To check if service is running, stopped, or failed.
+
+Step 2:
+Command:
+journalctl -u myapp -n 50
+
+Why:
+To check logs and see error messages.
+
+Step 3:
+Command:
+systemctl restart myapp
+
+Why:
+To try restarting the service.
+
+```
+---
+
+**Scenario 2: High CPU Usage** 
+```
+Your manager reports that the application server is slow.
+You SSH into the server. What commands would you run to identify
+which process is using high CPU?
+```
+
+## Answer
+
+```bash
+Step 1:
+Command:
+top
+
+Why:
+Shows live CPU usage.
+
+Step 2:
+Command:
+ps aux --sort=-%cpu | head -10
+
+Why:
+Shows highest CPU consuming processes.
+
+Step 3:
+Command:
+kill -9 PID
+
+Why:
+Stop problematic process.
+```
+---
+**Scenario 3: Finding Service Logs** 
+```
+A developer asks: "Where are the logs for the 'docker' service?"
+The service is managed by systemd.
+What commands would you use?
+```
+## Answer
+
+```bash
+# Scenario 3: Finding Service Logs
+
+Step 1:
+systemctl status docker
+
+Why:
+Check if docker is running.
+
+Step 2:
+journalctl -u docker -n 50
+
+Why:
+View docker logs.
+
+Step 3:
+journalctl -u docker -f
+
+Why:
+View logs in real time.
+```
+---
+**Scenario 4: File Permissions Issue** 
+```
+A script at /home/user/backup.sh is not executing.
+When you run it: ./backup.sh
+You get: "Permission denied"
+
+What commands would you use to fix this?
+```
+## Answer
+
+```bash
+# Scenario 4: File Permission Issue
+
+Step 1:
+ls -l /home/user/backup.sh
+
+Why:
+Check permissions.
+
+Step 2:
+chmod +x /home/user/backup.sh
+
+Why:
+Add execute permission.
+
+Step 3:
+./backup.sh
+
+Why:
+Run the script.
+```
