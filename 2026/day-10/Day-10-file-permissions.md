@@ -17,7 +17,7 @@ vim script.sh
 # To verify changes
 ls -l
 ```
-![image alt](image-url)
+![image alt](https://github.com/RUTUJABADRE/90DaysOfDevOps/blob/master/2026/day-10/task-1.png?raw=true)
 
 ## Task-2
 
@@ -34,7 +34,7 @@ head -n 5 /etc/passwd
 #To see last five line of file
 tail -n 5 /etc/passwd
 ```
-![image alt](image-url)
+![image alt](https://github.com/RUTUJABADRE/90DaysOfDevOps/blob/master/2026/day-10/task-2.png?raw=true)
 
 ## Task-3
 
@@ -46,7 +46,7 @@ Owner → read, write
 Group → read only
 Others → read only
 ```
-![image alt](image-url)
+![image alt](https://github.com/RUTUJABADRE/90DaysOfDevOps/blob/master/2026/day-10/task-3.png?raw=true)
 
 ## Task-4
 
@@ -68,7 +68,7 @@ chmod 755 project/
 #To verify Changes
 ls -l
 ```
-![image alt](image-url)
+![image alt](https://github.com/RUTUJABADRE/90DaysOfDevOps/blob/master/2026/day-10/task-4.png?raw=true)
 
 ## Task-5
 
@@ -81,4 +81,4 @@ sh: 1: cannot create devops.txt: Permission denied
 $ ./devops.txt
 sh: 2: ./devops.txt: Permission denied
 ```
-![image alt](image-url)
+![image alt](https://github.com/RUTUJABADRE/90DaysOfDevOps/blob/master/2026/day-10/task-5.png?raw=true)
