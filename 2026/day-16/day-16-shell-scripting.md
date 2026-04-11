@@ -5,7 +5,7 @@
 echo "Hello, DevOps!"
 ```
 output
-![alt text](/images/task-1.png)
+![alt text](./images/task-1.png)
 
 ## Task 2: Variables
 
@@ -17,7 +17,7 @@ ROLE="DEVOPS ENGINEER"
 echo "Hello, I am $NAME and I am a $ROLE"
 ```
 output
-![alt text](/images/task-2.png)
+![alt text](./images/task-2.png)
 
 ## Task 3: User Input with read
 ```bash
@@ -28,7 +28,7 @@ read -p "whats your fav tool: " tool
 echo "Hello $name, your favourite tool is $tool"
 ``` 
 output
-![alt text](/images/task-3.png)
+![alt text](./images/task-3.png)
 
 ## Task 4: If-Else Conditions
 
@@ -46,7 +46,7 @@ else
 fi
 ```
 output
-![alt text](/images/task-4-part-1.png)
+![alt text](./images/task-4-part-1.png)
 
 
 ```bash
@@ -61,7 +61,7 @@ else
 fi
 ```
 output
-![alt text](/images/task-4-part-2.png)
+![alt text](./images/task-4-part-2.png)
 
 ## Task 5: Combine It All
 
@@ -85,4 +85,4 @@ fi
 ```
 
 output
-![alt text](/images/task-5.png)
+![alt text](./images/task-5.png)

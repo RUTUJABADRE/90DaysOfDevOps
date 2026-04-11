@@ -20,7 +20,7 @@ done
 ```
 
 output
-![alt text](/images/task-1.png)
+![alt text](./images/task-1.png)
 
 ## Task 2: While loop
 
@@ -38,7 +38,7 @@ echo "DONE!"
 
 ```
 output
-![alt text](/images/task-2.png)
+![alt text](./images/task-2.png)
 
 
 ## Task 3: Command-Line Arguments
@@ -62,7 +62,7 @@ echo "All arguments: $@"
 
 ```
 output
-![alt text](/images/task-3.png)
+![alt text](./images/task-3.png)
 
 ## Task 4: Install Packages via Script
 
@@ -86,7 +86,7 @@ done
 
 ```
 output
-![alt text](/images/task-4.png)
+![alt text](./images/task-4.png)
 
 ## Task 5 : 
 
@@ -106,4 +106,4 @@ echo "All steps completed successfully"
 ```
 
 output
-![alt text](/images/task-5.png)
+![alt text](./images/task-5.png)
